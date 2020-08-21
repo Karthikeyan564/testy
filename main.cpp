@@ -1,7 +1,11 @@
 #include<iostream>
 
 int main(){
-	std::cout<<"hi";
-	std::cout<<1+1;
+#ifdef __APPLE__
+	std::cout<<"apple";
+	return 1;
+#else
+	std::cout<<"other";
 	return 0;
+#endif
 }
