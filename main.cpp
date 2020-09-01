@@ -2,6 +2,6 @@
 
 int main(){
 
-	std::cout<<"other";
+	std::cout<<"other";  //documentation
 	return 0;
 }
