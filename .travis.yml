@@ -10,5 +10,4 @@ script:
   - cd build
   - cmake ..
   - cmake --build .
-  - if [ "$TRAVIS_OS_NAME" = "windows" ]; then Debug/h.exe; else ./h ;fi
 
